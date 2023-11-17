@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+hadder{
+    height: 300px;
+    width: 300px;
+    background: #5cc412;
+    flex-direction: row;
+    border: 2px solid black;
+}
+#col1{
+    background: #de3333;
+      
+}

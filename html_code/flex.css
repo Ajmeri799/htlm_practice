@@ -1,0 +1,41 @@
+body{
+ text-align: center;
+    
+}
+#con{
+    height: 200px;
+    width: 800px;
+display: flex;
+flex-direction: row-reverse;
+
+/* flex-direction: column; */
+justify-content: center;
+/* justify-content: space-around; */
+flex-wrap: wrap;
+/* align-items: center; */
+/* align-content: flex-end; */
+    border: 2px solid black;
+}
+div{
+    height: 50px;
+    width: 100px;
+    display:inline-block ;
+    border: 1px solid black;
+}
+#div1{
+    background: #ce9191;
+    /* ek particular element ke liye  */
+    /* align-self: flex-start; */
+}
+#div2{
+    background: #80f64a;
+    /* cover all extra area  */
+/* flex-grow: 1; */
+}
+#div3{
+    background: #eda8f1;
+    flex-shrink:2;
+}
+#div4{
+    background: #2c2d9f;
+}
